@@ -1,0 +1,100 @@
+.contact-body {
+    height: calc(100vh - 117px);
+    display: flex;
+    background-color: #111;
+}
+
+.contact-form {
+    flex: 1;
+    /* padding: 1rem; */
+    background-color: #111;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-form .form-label {
+    font-weight: 500;
+}
+
+.contact-form .form-control {
+    border-radius: 10px;
+    width: 83vh;
+}
+
+.contact-form .btn {
+    font-weight: bold;
+    margin: 10px;
+    padding: 8px 15px;
+    width: 20vh;
+}
+
+.contact-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-image img {
+    height: 60vh;
+    width: 100%;
+    padding-right: 20px;
+    filter: grayscale();
+}
+
+.social-icons {
+  margin-top: 0.2rem;
+  display: flex;
+  gap: 20px;
+}
+
+.social-icon {
+  font-size: 1.7rem;
+  color: #fff;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: translateY(-10px); /* Hover effect - moves the icon upwards */
+  opacity: 0.8;
+}
+
+/* Add a pop effect on hover */
+.social-icon:focus, .social-icon:hover {
+  opacity: 1;
+}
+
+/* ================= Modal Custom Style ================= */
+
+.modal-content {
+  background-color: #111;
+  border: 1px solid #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  animation: fadeInScale 0.4s ease-in-out;
+}
+
+.modal-body h5 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Optional: Backdrop darkness adjustment */
+.modal-backdrop.show {
+  opacity: 0.6;
+  background-color: #000;
+}

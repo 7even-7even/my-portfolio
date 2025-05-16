@@ -1,0 +1,42 @@
+.home-body {
+  height: calc(100vh - 126px); 
+  display: flex;
+  background-color: #111;
+}
+
+.home-image {
+  /* flex: 1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* filter: grayscale(100%); */
+}
+
+.home-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #111;
+}
+
+.main-content {
+  padding-top: 2rem;
+}
+
+.buttons .btn {
+  font-weight: 500;
+  padding: 10px 20px;
+}
+
+.page-no {
+  margin-top: 3rem;
+  color: #999;
+  font-size: 14px;
+}

@@ -1,0 +1,67 @@
+.about-section {
+  height: 79vh;
+  background-color: #111;
+  color: white;
+  scroll-snap-align: start;
+}
+
+.section-img {
+  max-height: 60vh;
+  transition: transform 0.3s;
+  cursor: pointer;
+  filter: grayscale();
+}
+
+.section-img:hover {
+  transform: scale(1.05);
+}
+
+/* Custom table styles to match portfolio aesthetics */
+.about-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  font-size: 0.95rem;
+  background-color: #111;
+  color: #f1f1f1;
+}
+
+.about-section thead {
+  background-color: #111;
+  text-align: center;
+}
+
+.about-section th,
+.about-section td {
+  padding: 12px 16px;
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+.about-section tr:hover {
+  background-color: #111;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.about-section th {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.about-section td {
+  font-weight: 400;
+}
+
+/* Make the table responsive on smaller screens */
+@media (max-width: 768px) {
+  .about-section table {
+    font-size: 0.85rem;
+  }
+
+  .about-section th,
+  .about-section td {
+    padding: 8px;
+  }
+}
