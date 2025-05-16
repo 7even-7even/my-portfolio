@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.a37cafee.css",
+    "main.js": "/my-portfolio/static/js/main.183b1649.js",
+    "static/media/college.jpg": "/my-portfolio/static/media/college.09a2887ba00f0a2be8c0.jpg",
+    "static/media/about.jpg": "/my-portfolio/static/media/about.5be353539a4dc2ae5a2e.jpg",
+    "static/media/resume.pdf": "/my-portfolio/static/media/resume.cb7fde0dc1cdac604f4a.pdf",
+    "static/media/school.jpg": "/my-portfolio/static/media/school.342ae2b0e1214882a629.jpg",
+    "static/media/contact.jpg": "/my-portfolio/static/media/contact.1d71752a0ed2bf8577bc.jpg",
+    "static/media/profile.jpg": "/my-portfolio/static/media/profile.e67f2866557d20eb1e86.jpg",
+    "static/media/dummy.jpg": "/my-portfolio/static/media/dummy.3b2ba5d02d4a5975c205.jpg",
+    "index.html": "/my-portfolio/index.html",
+    "main.a37cafee.css.map": "/my-portfolio/static/css/main.a37cafee.css.map",
+    "main.183b1649.js.map": "/my-portfolio/static/js/main.183b1649.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a37cafee.css",
+    "static/js/main.183b1649.js"
+  ]
+}
